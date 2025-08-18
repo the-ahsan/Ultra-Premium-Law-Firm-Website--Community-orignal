@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from "react";
-import { Navigation } from "./components/Navigation";
-import { HomePage } from "./components/pages/HomePage";
-import { ServicesPage } from "./components/pages/ServicesPage";
-import { AboutPage } from "./components/pages/AboutPage";
-import { ContactPage } from "./components/pages/ContactPage";
-import { BlogPage } from "./components/pages/BlogPage";
-import { ResourcesPage } from "./components/pages/ResourcesPage";
-import { PrivacyPolicyPage } from "./components/pages/PrivacyPolicyPage";
-import { TermsOfServicePage } from "./components/pages/TermsOfServicePage";
-import { FamilyLawPage } from "./components/pages/services/FamilyLawPage";
-import { CorporateLawPage } from "./components/pages/services/CorporateLawPage";
-import { CriminalDefensePage } from "./components/pages/services/CriminalDefensePage";
-import { PersonalInjuryPage } from "./components/pages/services/PersonalInjuryPage";
-import { RealEstatePage } from "./components/pages/services/RealEstatePage";
-import { ContractLawPage } from "./components/pages/services/ContractLawPage";
-import { ClientPortal } from "./components/ClientPortal";
-import { Footer } from "./components/Footer";
-import { FloatingWhatsApp } from "./components/FloatingWhatsApp";
-import { Toaster } from "./components/ui/sonner";
+import { Navigation } from "@/components/Navigation";
+import { HomePage } from "@/components/pages/HomePage";
+import { ServicesPage } from "@/components/pages/ServicesPage";
+import { AboutPage } from "@/components/pages/AboutPage";
+import { ContactPage } from "@/components/pages/ContactPage";
+import { BlogPage } from "@/components/pages/BlogPage";
+import { ResourcesPage } from "@/components/pages/ResourcesPage";
+import { PrivacyPolicyPage } from "@/components/pages/PrivacyPolicyPage";
+import { TermsOfServicePage } from "@/components/pages/TermsOfServicePage";
+import { FamilyLawPage } from "@/components/pages/services/FamilyLawPage";
+import { CorporateLawPage } from "@/components/pages/services/CorporateLawPage";
+import { CriminalDefensePage } from "@/components/pages/services/CriminalDefensePage";
+import { PersonalInjuryPage } from "@/components/pages/services/PersonalInjuryPage";
+import { RealEstatePage } from "@/components/pages/services/RealEstatePage";
+import { ContractLawPage } from "@/components/pages/services/ContractLawPage";
+import { ClientPortal } from "@/components/ClientPortal";
+import { Footer } from "@/components/Footer";
+import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
+import { Toaster } from "sonner";
 
 type Page =
   | "home"
