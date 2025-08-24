@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
@@ -6,7 +6,7 @@ import { Card } from './ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { User, FileText, Calendar, Settings, LogOut, UserPlus } from 'lucide-react';
 import { supabase, api } from '../utils/supabase/client';
-import { toast } from 'sonner@2.0.3';
+import { toast } from "sonner";
 
 interface UserProfile {
   id: string;
@@ -340,3 +340,5 @@ export function ClientPortal() {
     </div>
   );
 }
+
+

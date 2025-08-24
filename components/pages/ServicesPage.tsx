@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Scale, Building, Heart, Shield, Home, FileText, Gavel, Users } from 'lucide-react';
 import { Button } from '../ui/button';
 
@@ -236,3 +236,4 @@ export function ServicesPage() {
     </div>
   );
 }
+

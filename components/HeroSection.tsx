@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Button } from './ui/button';
 import { ChevronDown } from 'lucide-react';
 
@@ -133,3 +133,4 @@ export function HeroSection() {
     </section>
   );
 }
+

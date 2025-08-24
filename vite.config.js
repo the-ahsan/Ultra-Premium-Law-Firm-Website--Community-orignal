@@ -7,11 +7,6 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      'motion/react': 'framer-motion',
-      'sonner@2.0.3': 'sonner',
-      'next-themes@0.4.6': 'next-themes',
-      'lucide-react@0.487.0': 'lucide-react',
-      'cmdk@1.1.1': 'cmdk',
       '@': path.resolve(__dirname, './')
     },
   },

@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Calendar, User, Clock, ArrowRight, BookOpen } from 'lucide-react';
 import { Button } from '../ui/button';
 
@@ -311,3 +311,4 @@ export function BlogPage() {
     </div>
   );
 }
+

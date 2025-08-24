@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Download, FileText, Users, Calendar, Scale, BookOpen, ExternalLink, ArrowRight } from 'lucide-react';
 import { Button } from '../ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
@@ -314,3 +314,4 @@ export function ResourcesPage() {
     </div>
   );
 }
+

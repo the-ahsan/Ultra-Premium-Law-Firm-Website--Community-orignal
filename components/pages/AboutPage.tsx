@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { VisualStorySection } from '../VisualStorySection';
 import { StatisticsSection } from '../StatisticsSection';
 import { Scale, Award, Users, BookOpen, Calendar, Briefcase, Trophy } from 'lucide-react';
@@ -492,3 +492,4 @@ export function AboutPage() {
     </div>
   );
 }
+

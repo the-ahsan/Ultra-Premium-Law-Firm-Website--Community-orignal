@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Scale, Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from './ui/button';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Building, Briefcase, FileText, TrendingUp, CheckCircle, Star } from 'lucide-react';
 import { Button } from '../../ui/button';
 
@@ -290,3 +290,4 @@ export function CorporateLawPage() {
     </div>
   );
 }
+

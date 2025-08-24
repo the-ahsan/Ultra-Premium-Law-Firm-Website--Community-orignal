@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Scale, Users, Shield, Building } from 'lucide-react';
 import { Card } from './ui/card';
 
@@ -151,3 +151,4 @@ export function PracticeCards() {
     </section>
   );
 }
+

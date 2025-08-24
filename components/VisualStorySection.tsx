@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform } from 'motion/react';
+import { motion } from 'framer-motion';
 import { useRef } from 'react';
 import { Gavel, ArrowRight, CheckCircle } from 'lucide-react';
 

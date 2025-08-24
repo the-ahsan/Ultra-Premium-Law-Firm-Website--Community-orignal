@@ -2,7 +2,7 @@ import { HeroSection } from '../HeroSection';
 import { PracticeCards } from '../PracticeCards';
 import { StatisticsSection } from '../StatisticsSection';
 import { TestimonialsCarousel } from '../TestimonialsCarousel';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Scale, Award, Users, Clock } from 'lucide-react';
 import { Button } from '../ui/button';
 

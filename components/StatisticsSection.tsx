@@ -1,4 +1,4 @@
-import { motion, useInView, useMotionValue, useSpring, useTransform } from 'motion/react';
+import { motion, useInView, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { useRef, useEffect } from 'react';
 import { Award, Users, Clock, TrendingUp } from 'lucide-react';
 

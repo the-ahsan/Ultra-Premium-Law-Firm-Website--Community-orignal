@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ContactForm } from '../ContactForm';
 import { ConsultationBooking } from '../ConsultationBooking';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { MapPin, Phone, Mail, Clock, Car, Train } from 'lucide-react';
 
 const contactInfo = [

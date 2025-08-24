@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Shield, Eye, Lock, UserCheck, FileText, Globe } from 'lucide-react';
 
 const sections = [
@@ -272,3 +272,4 @@ export function PrivacyPolicyPage() {
     </div>
   );
 }
+

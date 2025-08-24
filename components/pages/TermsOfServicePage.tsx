@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Scale, FileText, AlertTriangle, Users, Globe, Shield } from 'lucide-react';
 
 const sections = [
@@ -347,3 +347,4 @@ export function TermsOfServicePage() {
     </div>
   );
 }
+

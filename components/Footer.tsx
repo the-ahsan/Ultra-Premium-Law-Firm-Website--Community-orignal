@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Scale, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 import { Separator } from './ui/separator';
 
@@ -303,3 +303,4 @@ export function Footer() {
     </footer>
   );
 }
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Heart, Users, FileText, Shield, CheckCircle, Star } from 'lucide-react';
 import { Button } from '../../ui/button';
 
@@ -246,3 +246,4 @@ export function FamilyLawPage() {
     </div>
   );
 }
+
